@@ -5,6 +5,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.button{
+    display: flex;
+}
 .btn-primary{
     font-weight: 700;
     font-size: 20px;
@@ -15,6 +18,13 @@
     color: #FFFFFF;
     background: #FD6E0A;
 }
+.btn-border{
+    background: none;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 10px;
+}
+
 
 .header{
     background: #FFF8F3;
@@ -41,6 +51,10 @@ nav li{
     font-size: 45px;
 }
 /* banner style */
+.banner img{
+    width: 545px;
+    height: 640px;
+}
 .banner{
     margin: 0 200px;
     display: flex;
